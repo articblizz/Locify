@@ -49,7 +49,6 @@ namespace Locify
         {
             while (true)
             {
-                Thread.Sleep(2500);
 
                 try
                 {
@@ -68,6 +67,9 @@ namespace Locify
                 }
                 catch
                 { }
+
+                Thread.Sleep(2500);
+
             }
         }
 
